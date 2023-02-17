@@ -12,15 +12,15 @@ return [
     // 数据库类型
     'type'            => 'mysql',
     // 服务器地址
-    'hostname'        => '127.0.0.1',
+    'hostname'        => 'gateway01.ap-northeast-1.prod.aws.tidbcloud.com',
     // 数据库名
-    'database'        => 'maccms10',
+    'database'        => 'test',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'bWyNthJjf4MRG2d.root',
     // 密码
-    'password'        => 'root',
+    'password'        => 'HXn5l8WBVziY6NOc',
     // 端口
-    'hostport'        => '3306',
+    'hostport'        => '4000',
     // 连接dsn
     'dsn'             => '',
     // 数据库连接参数
