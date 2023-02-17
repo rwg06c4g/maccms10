@@ -32,10 +32,10 @@ if(is_file('./application/data/install/install.lock')) {
 	exit;
 }
 
-if(!is_writable('./runtime')) {
-	echo '请开启[runtime]目录的读写权限【Please turn on the read and write permissions of the [runtime] folder】';
-	exit;
-}
+#if(!is_writable('./runtime')) {
+#	echo '请开启[runtime]目录的读写权限【Please turn on the read and write permissions of the [runtime] folder】';
+#	exit;
+#}
 
 // 加载框架引导文件
 require __DIR__ . '/thinkphp/start.php';
